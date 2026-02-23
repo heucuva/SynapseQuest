@@ -58,8 +58,6 @@ git submodule update --init --recursive
 
 Then regenerate project files as above.
 
-> **Note:** You may need to remove the `Plugins` line from `.gitignore` (or change it to `Plugins/*/Intermediate`) if you want Git to track the submodule entry.
-
 ## Configuring an LLM Provider
 
 Once the plugin is installed:
